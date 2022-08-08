@@ -1,0 +1,15 @@
+{
+  "listen_address": "0.0.0.0:443",
+  "backends": {
+    "web.domain.com": {
+      "destination": "10.42.0.10:8080",
+      "certificate": "/etc/letsencrypt/live/web.domain.com/fullchain.pem",
+      "key": "/etc/letsencrypt/live/web.domain.com/privkey.pem"
+    },
+    "api.domain.com": {
+      "destination": "10.42.0.20:8080",
+      "certificate": "/etc/letsencrypt/live/api.domain.com/fullchain.pem",
+      "key": "/etc/letsencrypt/live/api.domain.com/privkey.pem"
+    }
+  }
+}
