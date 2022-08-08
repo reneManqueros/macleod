@@ -10,5 +10,6 @@ func init() {
 
 func main() {
 	server := Server{}
+	server.New()
 	server.Serve()
 }
