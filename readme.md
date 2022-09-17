@@ -9,7 +9,11 @@
 - Terminates SSL connections and redirects traffic internally
 - No external dependencies
 
-## Installation
+## Download precompiled
+
+Download for your OS/Arch from https://github.com/reneManqueros/macleod/releases
+
+## Compile from source:
 
 ```sh
 go build .
